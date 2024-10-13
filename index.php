@@ -9,21 +9,18 @@
 <body>
     <header>
         <h1>上輩寺</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">ホーム</a></li>
-                <li><a href="about.php">お寺の紹介</a></li>
-                <li><a href="events.php">行事案内</a></li>
-                <li><a href="access.php">アクセス</a></li>
-                <li><a href="diary.php">住職の日記</a></li>
-            </ul>
-        </nav>
+        <?php include 'navbar.php'; ?>
     </header>
 
     <main>
         <section>
             <h2>上輩寺へようこそ</h2>
-            <p>ここでは、上輩寺の歴史、行事、最新情報をお届けします。</p>
+            <p>上輩寺は、地域の信仰を深く支え、長い歴史を誇る寺院です。最新の行事や法要の情報もこちらでご覧いただけます。</p>
+        </section>
+
+        <section>
+            <h2>最新情報</h2>
+            <p>2024年の行事が決まりました！ <a href="events.php">こちらから確認</a>してください。</p>
         </section>
     </main>
 
